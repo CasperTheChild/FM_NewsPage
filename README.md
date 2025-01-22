@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/CasperTheChild/FM_NewsPage?tab=readme-ov-file)
+- Live Site URL: [Live site URL](https://casperthechild.github.io/FM_NewsPage/)
 
 ## My process
 
@@ -58,4 +58,4 @@ I'll keep practising with Bootstrap
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/CasperTheChild)
+- Frontend Mentor - [@CasperTheChild](https://www.frontendmentor.io/profile/CasperTheChild)
