@@ -21,21 +21,21 @@
   <nav id="Container" class="container-fluid col-11 col-xl-9 mt-xl-5 p-2 p-md-0">
     <section id="TopHeading" class="row align-items-center mt-4 mt-md-5 mb-4">
       <div class="col">
-        <img src="./assets/images/logo.svg" class="LogoImage">
+        <img src="./assets/images/logo.svg" class="LogoImage" alt="News homepage logo">
       </div>
 
       <section class="col d-none d-xl-flex p-0">
         <ul class="Body row list-unstyled ms-auto gap-5">
-          <li class="col cursor-pointer">Home</li>
-          <li class="col cursor-pointer">New</li>
-          <li class="col cursor-pointer">Popular</li>
-          <li class="col cursor-pointer">Trending</li>
-          <li class="col cursor-pointer">Categories</li>
+          <li class="col cursor-pointer"><a href="#" aria-label="Home" class="link-underline-opacity-0">Home</a></li>
+          <li class="col cursor-pointer"><a href="#" aria-label="New">New</a></li>
+          <li class="col cursor-pointer"><a href="#" aria-label="Popular">Popular</a></li>
+          <li class="col cursor-pointer"><a href="#" aria-label="Trending">Trending</a></li>
+          <li class="col cursor-pointer"><a href="#" aria-label="Categories">Categories</a></li>
         </ul>
       </section>
 
       <div class="col d-inline d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#OffCanvasSideBar">
-        <img src="./assets/images/icon-menu.svg" id="IconLogo" alt="" class="float-end">
+        <img src="./assets/images/icon-menu.svg" id="IconLogo" alt="" class="float-end" alt="Menu icon">
       </div>
     </section>
 
@@ -43,12 +43,12 @@
       <section id="TopNews" class="col-lg-8 p-0">
         <picture>
           <source
-            media="(min-width: 567px)"
+            media="(min-width: 750px)"
             srcset="./assets/images/image-web-3-desktop.jpg"
           >
           <img
             src="./assets/images/image-web-3-mobile.jpg"
-            alt=""
+            alt="Web 3.0 Future"
             class="img-fluid mb-4"
           >
         </picture>
@@ -56,7 +56,7 @@
           <h1 class="Heading-XL col-md">The Bright Future of Web 3.0?</h1>
           <div class="col-md">
             <p class="Body">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-            <div class="mt-4 align-self-end"><button class="Heading-Button p-0">Read more</button></div>
+            <div class="mt-4 align-self-end"><button class="Heading-Button p-0" aria-label="Read more about Web 3.0">Read more</button></div>
           </div>
         </article>
       </section>
@@ -65,17 +65,17 @@
         <h2 class="Heading-L mb-4">New</h2>
         <article class="d-grid gap-5 mt-xl-auto row">
           <div>
-            <h3 class="Heading-S xl-2 cursor-pointer">Hydrogen VS Electric Cars</h3>
+            <h3 class="Heading-S xl-2 cursor-pointer" aria-label="Hydrogen VS Electric Cars" tabindex="0">Hydrogen VS Electric Cars</h3>
             <p class="Body">Will hydrogen-fueled cars ever catch up to EVs?</p>
           </div>
           <hr class="m-0">
           <div>
-            <h3 class="Heading-S xl-2 cursor-pointer">The Downsides of AI Artistry</h3>
+            <h3 class="Heading-S xl-2 cursor-pointer" aria-label="The Downsides of AI Artistry" tabindex="0">The Downsides of AI Artistry</h3>
             <p class="Body">What are the possible adverse effects of on-demand AI image generation?</p>
           </div>
           <hr class="m-0">
           <div>
-            <h3 class="Heading-S xl-2 cursor-pointer">Is VC Funding Drying Up?</h3>
+            <h3 class="Heading-S xl-2 cursor-pointer" aria-label="Is VC Funding Drying Up?" tabindex="0">Is VC Funding Drying Up?</h3>
             <p class="Body">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
           </div>
         </article>
@@ -85,34 +85,34 @@
     <section id="BottomNews" class="row mt-5 gap-xl-2 gap-4">
       <div class="col-md row p-0">
         <div class="col-md BottomImgWidth">
-          <img src="./assets/images/image-retro-pcs.jpg" class="img-fluid">
+          <img src="./assets/images/image-retro-pcs.jpg" class="img-fluid" alt="Retro PCs">
         </div>
         <div class="col">
           <h2 class="Heading-M RedColor">01</h2>
-          <h3 class="Heading-XS cursor-pointer mt-2">Reviving Retro PCs</h3>
+          <h3 class="Heading-XS cursor-pointer mt-2" aria-label="Reviving Retro PCs"  tabindex="0">Reviving Retro PCs</h3>
           <p class="Body mt-2">What happens when old PCs are given modern upgrades?</p>
         </div>
       </div>
       
       <div class="col-md row p-0">
         <div class="col BottomImgWidth">
-          <img src="./assets/images/image-top-laptops.jpg" class="img-fluid">
+          <img src="./assets/images/image-top-laptops.jpg" class="img-fluid" alt="Top laptops">
       </div>
         <div class="col">
           <h2 class="Heading-M RedColor">02</h2>
-          <h3 class="Heading-XS cursor-pointer mt-2">Top 10 Laptops of 2022</h3>
+          <h3 class="Heading-XS cursor-pointer mt-2" aria-label="Top 10 Laptops of 2022" tabindex="0">Top 10 Laptops of 2022</h3>
           <p class="Body mt-2">Our best picks for various needs and budgets.</p>
         </div>
       </div>
       
       <div class="col-xl row p-0">
         <div class="col BottomImgWidth">
-          <img src="./assets/images/image-gaming-growth.jpg" class="img-fluid">
+          <img src="./assets/images/image-gaming-growth.jpg" class="img-fluid" alt="Gaming growth">
         </div>
         <div class="col">
           <h2 class="Heading-M RedColor">03</h2>
           <div class="">
-            <h3 class="Heading-XS cursor-pointer mt-2">The Growth of Gaming</h3>
+            <h3 class="Heading-XS cursor-pointer mt-2" aria-label="The Growth of Gaming" tabindex="0">The Growth of Gaming</h3>
             <p class="Body mt-2">How the pandemic has sparked fresh opportunities.</p>
           </div>
         </div>
@@ -120,7 +120,7 @@
     </section>
   </section>
 
-  <nav class="offcanvas offcanvas-end p-4" tabindex="-1" id="OffCanvasSideBar">
+  <nav class="offcanvas offcanvas-end p-4" tabindex="-1" id="OffCanvasSideBar" aria-labelledby="offcanvasSidebarLabel">
     <div class="offcanvas-header">
       <button type="button" class="btn-close ms-auto CloseButton" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
@@ -128,11 +128,11 @@
     <div class="offcanvas-body">
       <div>
         <ul class="Body list-unstyled ms-auto d-flex flex-column gap-4">
-          <li class="cursor-pointer">Home</li>
-          <li class="cursor-pointer">New</li>
-          <li class="cursor-pointer">Popular</li>
-          <li class="cursor-pointer">Trending</li>
-          <li class="cursor-pointer">Categories</li>
+          <li class="cursor-pointer"><a href="#" aria-label="Home">Home</a></li>
+          <li class="cursor-pointer"><a href="#" aria-label="New">New</a></li>
+          <li class="cursor-pointer"><a href="#" aria-label="Popular">Popular</a></li>
+          <li class="cursor-pointer"><a href="#" aria-label="Trending">Trending</a></li>
+          <li class="cursor-pointer"><a href="#" aria-label="Categories">Categories</a></li>
         </ul>
       </div>
     </div>
